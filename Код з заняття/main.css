@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .icons{
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #000;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 100px;
+    height: 97px;
+    background-image: url('https://idg.net.ua/blog/wp-content/uploads/sprites2.png');
+} */
+
+/* .twitter{
+    background-position: -100px 0;
+}
+
+.youtube{
+    background-position: -200px 0;
+}
+
+.instagram{
+    background-position: -300px 0;
+}
+
+.linkedin{
+    background-position: -400px 0;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.facebook:hover{
+    background-position:0 -98px;
+}
+
+.twitter:hover{
+    background-position: -100px -98px;
+}
+
+.youtube:hover{
+    background-position: -200px -98px;
+}
+
+.instagram:hover{
+    background-position: -300px -98px;
+}
+
+.linkedin:hover{
+    background-position: -400px -98px;
+} */
+
+/* .facebook:hover{
+    background-position:0 0;
+}
+
+.twitter:hover{
+    background-position: -100px 0;
+}
+
+.youtube:hover{
+    background-position: -200px 0;
+}
+
+.instagram:hover{
+    background-position: -300px 0;
+}
+
+.linkedin:hover{
+    background-position: -400px 0;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.facebook{
+    background-position:0 -98px;
+}
+
+.twitter{
+    background-position: -100px -98px;
+}
+
+.youtube{
+    background-position: -200px -98px;
+}
+
+.instagram{
+    background-position: -300px -98px;
+}
+
+.linkedin{
+    background-position: -400px -98px;
+} */
+
+.header{
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    margin-top: 4px;
+}
+
+.slider{
+    width: 1440px;
+    height: 570px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.slider-left{
+    width: 720px;
+    height: 100%;
+    background-image: url('image/philip-martin-5aGUyCW_PJw-unsplash.png');
+}
+
+.slider-right{
+    width: 720px;
+    height: 100%;
+    background-color: #000;
+}
