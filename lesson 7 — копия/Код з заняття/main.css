@@ -116,7 +116,7 @@
 }
 
 .slider{
-    width: 1440px;
+    width: 1443px;
     height: 570px;
     margin: 0 auto;
     display: flex;
@@ -135,12 +135,12 @@
 }
 
 .probel{
-    width: 1440px;
+    width: 1443px;
     height: 116px;
 }
 
 .featured{
-    width: 1140px;
+    width: 1143px;
     height: 590px;
     margin: 0 auto;
     background-color:blue;
@@ -183,7 +183,7 @@
 }
 
 .probel_2{
-    width: 1140px;
+    width: 1143px;
     height: 63px;
     margin: 0 auto;
     background-color:rgb(153, 224, 19);
@@ -193,13 +193,27 @@
 
 
 .block_3{
-    width: 1140px;
+    width: 1143px;
     height: 327px;
     background-color:blue;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
+
+.block_left{
+    width: 363px;
+    height: 327px;
+}
+.block_center{
+    width: 363px;
+    height: 327px;
+}
+.block_right{
+    width: 363px;
+    height: 327px;
+}
+
 
 .block_foto{
     width: 363px;
@@ -220,4 +234,84 @@
 .block_right{
     width: 363px;
     height: 327px;
+}
+
+
+/* _____________________________________Probel_3 */
+.probel_3{
+    width: 1143px;
+    height: 177px;
+    margin: 0 auto;
+    background-color:rgb(219, 9, 202);
+
+}
+.subscribe_now{
+    width: 1144px;
+    height: 360px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.subscribe_left{
+    width: 571.5px;
+    height: 360px;
+}
+.subscribe_right{
+    width: 571.5px;
+    height: 360px;
+    background-color:rgb(14, 13, 14);
+    
+}
+
+.probel_4{
+    width: 1143px;
+    height: 122px;
+    margin: 0 auto;
+    background-color:rgb(14, 13, 14);
+}
+
+
+
+/* _________________________________________Blok4 */
+
+
+.block_4{
+    width: 1143px;
+    height: 327px;
+    background-color:blue;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.probel_5{
+    width: 1143px;
+    height: 166px;
+    background-color:rgb(255, 0, 200);
+    margin: 0 auto;
+    display: flex;
+    justify-content:center
+
+}
+
+
+.knopka{
+    width: 238px;
+    height: 42px;
+    background-color:#000;
+    margin-top: 35px;
+    justify-content
+
+}
+.tekst_knopka{
+    margin-top: 12px;
+    margin-left:2px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    text-align: center;
 }
