@@ -135,15 +135,15 @@
 }
 
 .probel{
-    width: 1443px;
+    width: 1441px;
     height: 116px;
 }
 
 .featured{
-    width: 1143px;
+    width: 1141px;
     height: 590px;
     margin: 0 auto;
-    background-color:blue;
+    /* background-color:blue; */
     display: flex;
     justify-content: space-between;
     
