@@ -4,104 +4,6 @@
     box-sizing: border-box;
 }
 
-/* .icons{
-    width: 70%;
-    padding: 15px;
-    border: 1px solid #000;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.icon{
-    width: 100px;
-    height: 97px;
-    background-image: url('https://idg.net.ua/blog/wp-content/uploads/sprites2.png');
-} */
-
-/* .twitter{
-    background-position: -100px 0;
-}
-
-.youtube{
-    background-position: -200px 0;
-}
-
-.instagram{
-    background-position: -300px 0;
-}
-
-.linkedin{
-    background-position: -400px 0;
-}
-
-.icon:hover{
-    cursor: pointer;
-}
-
-.facebook:hover{
-    background-position:0 -98px;
-}
-
-.twitter:hover{
-    background-position: -100px -98px;
-}
-
-.youtube:hover{
-    background-position: -200px -98px;
-}
-
-.instagram:hover{
-    background-position: -300px -98px;
-}
-
-.linkedin:hover{
-    background-position: -400px -98px;
-} */
-
-/* .facebook:hover{
-    background-position:0 0;
-}
-
-.twitter:hover{
-    background-position: -100px 0;
-}
-
-.youtube:hover{
-    background-position: -200px 0;
-}
-
-.instagram:hover{
-    background-position: -300px 0;
-}
-
-.linkedin:hover{
-    background-position: -400px 0;
-}
-
-.icon:hover{
-    cursor: pointer;
-}
-
-.facebook{
-    background-position:0 -98px;
-}
-
-.twitter{
-    background-position: -100px -98px;
-}
-
-.youtube{
-    background-position: -200px -98px;
-}
-
-.instagram{
-    background-position: -300px -98px;
-}
-
-.linkedin{
-    background-position: -400px -98px;
-} */
 
 .header{
     height: 120px;
@@ -152,14 +54,14 @@
     width: 557px;
     height: 590px;
    
-    background-color:rgb(33, 138, 115);
+    /* background-color:rgb(33, 138, 115); */
 }
 
 .featured_right{
     width: 557px;
     height: 590px;
    
-    background-color:rgb(33, 138, 115);
+    /* background-color:rgb(33, 138, 115); */
 }
 
 .date_left{
@@ -186,7 +88,7 @@
     width: 1143px;
     height: 63px;
     margin: 0 auto;
-    background-color:rgb(153, 224, 19);
+    /* background-color:rgb(153, 224, 19); */
     display: flex;
     justify-content: space-between;
 }
@@ -195,7 +97,7 @@
 .block_3{
     width: 1143px;
     height: 327px;
-    background-color:blue;
+    /* background-color:blue; */
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
@@ -300,7 +202,7 @@
 .block_4{
     width: 1143px;
     height: 327px;
-    background-color:blue;
+   
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -309,7 +211,7 @@
 .probel_5{
     width: 1143px;
     height: 166px;
-    background-color:rgb(255, 0, 200);
+   
     margin: 0 auto;
     display: flex;
     justify-content:center
@@ -328,26 +230,32 @@
     justify-content:center;
 }
 .tekst_knopka{
-    margin-top: 12px;
+    margin-top: 11px;
     margin-left: 2px;
     font-family: 'Kanit', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13.6px;
+    font-weight: 400;
     vertical-align: Top;
-    letter-spacing: 0px;
+    letter-spacing: 0.14px;
     text-align: center;
     color: white;
     text-align: center;
-    Line-height: 20.93px;
+    Line-height: 21px;
 }
-
+.knopka_foot{
+    width: 238px;
+    height: 42px;
+    background-color:#303030;
+    margin-top: 32px;
+    justify-content:center;
+}
 /* _________________________________________Blok4 */
 
 
 .block_5{
     width: 1143px;
     height: 327px;
-    background-color:blue;
+   
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
