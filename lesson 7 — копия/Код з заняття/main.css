@@ -198,7 +198,8 @@
     background-color:blue;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+
 }
 
 .block_left{
@@ -242,9 +243,30 @@
     width: 1143px;
     height: 177px;
     margin: 0 auto;
-    background-color:rgb(219, 9, 202);
-
+    display: flex;
+    justify-content:center;
 }
+.knopka_probel_3{
+    width: 238px;
+    height: 42px;
+    background-color:#303030;
+    margin-top: 63px;
+    justify-content:center;
+}
+.tekst_knopka_probel_3{
+    margin-top: 12px;
+    margin-left: 2px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    font-style: medium;
+}
+
+
 .subscribe_now{
     width: 1144px;
     height: 360px;
@@ -295,23 +317,26 @@
 }
 
 
+
+
+
 .knopka{
     width: 238px;
     height: 42px;
-    background-color:#000;
+    background-color:#303030;
     margin-top: 35px;
-    justify-content
-
+    justify-content:center;
 }
 .tekst_knopka{
     margin-top: 12px;
-    margin-left:2px;
+    margin-left: 2px;
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
+    font-weight: 500;
+    vertical-align: Top;
     letter-spacing: 0px;
     text-align: center;
     color: white;
     text-align: center;
+    Line-height: 20.93px;
 }
