@@ -116,9 +116,50 @@
 
 
 
+.otstup{
+    margin-left: 41px;
+    width: 86px;
+    height: 27px;
+    top: 750px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    left: 149px;
+    position: absolute;
+}
 
 
+.featured_text_1{
+    height: 72px;
+    left: 149px;
+    top: 1252px;
+    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    color: #1F1F1D;
+    width: 557px;
 
+}
+
+.featured_text_2{
+    height: 54px;
+    left: 147px;
+    top: 1343px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    width: 557px;
+}
 
 .date_left{
     width: 117px;
@@ -393,4 +434,42 @@
     margin-left: -1092px;
     margin-top: 0px;
     position: absolute;
+}
+
+.issue{
+    margin: 124px 116px;
+    height: 51px;
+  
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;  
+    color: #FFFFFF;
+    width: 335px;
+    position: absolute;
+    letter-spacing:1px;
+}
+
+.Kvadrat{
+    margin: 195px 188px;
+    border: solid 1px white;
+    height: 42px;
+    width: 198px;
+
+}
+.sub_now{
+    margin-top: 10px;
+    left: 23.23%;
+    right: 23.23%;
+    top: calc(50% - 21px/2 + 0.5px);
+    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    height: 21px;
+    color: #FFFFFF;
 }
