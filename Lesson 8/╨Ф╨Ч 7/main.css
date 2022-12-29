@@ -707,7 +707,7 @@
 
 
 
-@media screen and (max-width: 1320px){
+@media screen and (max-width: 1370px){
     .header{
         width: 1240px;
         height: 120px;
@@ -951,7 +951,7 @@
 
 
 .Kvadrat1{
-    width: 503px;
+    width: 407px;
     height: 309px;
 
     margin-top: 110px ;
@@ -1060,12 +1060,12 @@
 }
 
 .featured_text_1{
-    width: 455px;
+    width: 407px;
     height: 72px;
 
 }
 .featured_text_2{
-    width: 455px;
+    width: 407px;
     height: 54px;
 }
 
@@ -1126,8 +1126,19 @@
 
 
 /* _____________________________________Probel_3 */
+
+.size_img_f{
+    width: 456px;
+    height: 301px;
+}
+
+.size_img{
+   width:293px;
+   height:194px;
+
+}
 .probel_3{
-    width: 1143px;
+    width: 939px;
     height: 177px;
     margin: 0 auto;
     display: flex;
@@ -1173,7 +1184,7 @@
 }
 
 .probel_4{
-    width: 1143px;
+    width: 939px;
     height: 122px;
     margin: 30 auto;
     background-color:rgb(255, 255, 255);
@@ -1185,7 +1196,7 @@
 
 
 .block_4{
-    width: 1143px;
+    width: 939px;
     height: 327px;
    
     margin: 0 auto;
