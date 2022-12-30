@@ -905,7 +905,7 @@
     width: 57px;
     height: 18px;
     margin-top: -18px;
-    margin-left: 306px;
+    margin-left: 236px;
     justify-content: right;
     font-family: 'Kanit';
     font-style: normal;
@@ -1070,7 +1070,7 @@
 }
 
 .probel_2{
-    width: 1143px;
+    width: 939px;
     height: 63px;
     margin: 0 auto;
     /* background-color:rgb(153, 224, 19); */
@@ -1080,7 +1080,7 @@
 
 
 .block_3{
-    width: 1143px;
+    width: 939px;
     height: 327px;
     /* background-color:blue; */
     margin: 0 auto;
@@ -1248,7 +1248,7 @@
 
 
 .block_5{
-    width: 1143px;
+    width: 939px;
     height: 327px;
    
     margin: 0 auto;
@@ -1278,11 +1278,8 @@
 .end_image{
     width: 142px;
     height: 27px;
-    
-    margin-left: 655px;
-    margin-top: 55px;
     display: flex;
-    justify-content:center;
+    text-align: center;
 }
 .end_image1{
     width: 102px;
