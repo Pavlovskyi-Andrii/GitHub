@@ -549,6 +549,7 @@
     background-color:#303030;
     margin-top: 32px;
     justify-content:center;
+    
 }
 /* _________________________________________Blok4 */
 
@@ -905,17 +906,30 @@
     width: 57px;
     height: 18px;
     margin-top: -18px;
-    margin-left: 236px;
+    margin-left: 230px;
     justify-content: right;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-   
-    text-decoration-line: underline;
-    
+    text-decoration-line: underline;  
 }
+.stiles{
+    display: flex;
+    width: 57px;
+    height: 18px;
+    margin-top: -18px;
+    margin-left: 390px;
+    justify-content: right;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: underline;  
+}
+
 .stile_s{
     position: absolute;
     width: 75px;
@@ -929,6 +943,7 @@
     color: #FFFFFF;
     top:-1px;
     right:0px;
+    margin-left: -120px;
 }
 
 
@@ -971,7 +986,7 @@
 
 
 .otstup{
-    margin-left: 227px;
+    margin-left: 12px;
     width: 86px;
     height: 27px;
     top: 750px;
@@ -1166,7 +1181,7 @@
 
 
 .subscribe_now{
-    width: 1144px;
+    width: 939px;
     height: 360px;
     margin: 0 auto;
     display: flex;
@@ -1243,6 +1258,7 @@
     background-color:#303030;
     margin-top: 32px;
     justify-content:center;
+    position: absolute;
 }
 /* _________________________________________Blok4 */
 
@@ -1256,12 +1272,14 @@
     justify-content: space-between;
 }
 
-.and {
+.and{
     width: 1240px;
     height: 163px;
     background-color:rgb(0, 0, 0);
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 .probel_end{
@@ -1271,32 +1289,39 @@
     margin: 0 auto;
     display: flex;
     justify-content:center;
+    align-items;
 
 }
 
 
 .end_image{
-    width: 142px;
+    
+    margin-top: 10px;
     height: 27px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   
     display: flex;
-    text-align: center;
+    align-items: center;
+    justify-content: center
 }
 .end_image1{
-    width: 102px;
-    height: 18px;
-    margin-top: 38px;
+ 
+    margin-top: 120px;
+
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
-    margin-left: 673px;
-    display: flex;
-    justify-content:center;
     color:#fff;
     letter-spacing: 0.13px;
-    text-align: center;
-
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .text_4{
@@ -1327,7 +1352,7 @@
 }
 
 .korektirovka{
-    margin-left: -1092px;
+    margin-left: -902px;
     margin-top: 0px;
     position: absolute;
 }
@@ -1345,6 +1370,7 @@
     width: 335px;
     position: absolute;
     letter-spacing:1px;
+    margin-left: 60px;
 }
 
 .Kvadrat{
@@ -1352,7 +1378,7 @@
     border: solid 1px white;
     height: 42px;
     width: 198px;
-
+    margin-left: 120px;
 }
 
 .Kvadrat_read_more{
