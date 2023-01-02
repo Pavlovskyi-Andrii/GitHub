@@ -39,6 +39,7 @@
 .slider-right{
     width: 720px;
     height: 100%;
+    margin-top: -2px;
     background-color: #000;
 }
 
@@ -703,7 +704,38 @@
     color: #FFFFFF;
 }
 
-/* ________________________________________________max-width: 130px__________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________________________max-width: 1370px__________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1105,39 +1137,27 @@
 }
 
 .block_left{
-    width: 295px;
-    height: 327px;
+    width: 220px;
+    height: 240px;
 }
 .block_center{
-    width: 295px;
+    width: 220px;
     height: 327px;
 }
 .block_right{
-    width: 295px;
+    width: 220px;
     height: 327px;
 }
 
 
 .block_foto{
-    width: 295px;
+    width: 220px;
     height: 240px;
 
 }
 
 
 
-.block_left{
-    width: 295px;
-    height: 327px;
-}
-.block_center{
-    width: 295px;
-    height: 327px;
-}
-.block_right{
-    width: 295px;
-    height: 327px;
-}
 
 
 /* _____________________________________Probel_3 */
@@ -1420,8 +1440,10 @@
 }
 
 
+
+
+
 }
-    
 
 
 
@@ -1438,6 +1460,22 @@
 
 
 /* ________________________________________________max-width: 850px__________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1604,7 +1642,7 @@
     height: 18px;
     left: 149px;
     top: 1200px;
-    margin-top: 19px;
+    margin-top: 0px;
     margin-left: 0px;
     font-family: 'Kanit';
     font-style: normal;
@@ -1866,7 +1904,7 @@
     width: 238px;
     height: 42px;
     background-color:#303030;
-    margin-top: 63px;
+    margin-top: -63px;
     justify-content:center;
 }
 .tekst_knopka_probel_3{
@@ -2421,6 +2459,7 @@
     text-transform: uppercase;
     height: 27px;
     letter-spacing: 0.4px;
+    margin-top: 20px;
 }
 
 
@@ -2569,22 +2608,23 @@
 .block_left{
     width: 295px;
     height: 259px;
+    margin-bottom: 20px;
 }
 .block_center{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 295px;
     height: 259px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 .block_right{
     width: 295px;
     height: 259px;
+    margin-bottom: 20px;
 }
 
 .block_foto{
     width: 295px;
     height: 215px;
-
 }
 
 
@@ -2677,16 +2717,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .probel_5{
-    width: 768px;
+    width: 320px;
     height: 166px;
     margin: 0 auto;
     display: flex;
     justify-content:center
-
 }
-
 
 
 
@@ -2695,8 +2732,10 @@
     width: 238px;
     height: 42px;
     background-color:#303030;
-    margin-top: 35px;
-    justify-content:center;
+    margin-top: 65px;
+    
+    position: absolute;
+    
 }
 .tekst_knopka{
     margin-top: 11px;
@@ -2715,7 +2754,7 @@
     width: 238px;
     height: 42px;
     background-color:#303030;
-    margin-top: 32px;
+    margin-top: 40px;
     justify-content:center;
     position: absolute;
 }
@@ -2723,8 +2762,8 @@
 
 
 .block_5{
-    width: 719px;
-    height: 254px;
+    width: 320px;
+    height: 856px;
    
     margin: 0 auto;
     display: flex;
@@ -2733,7 +2772,7 @@
 }
 
 .and{
-    width: 768px;
+    width: 320px;
     height: 163px;
     background-color:rgb(0, 0, 0);
     margin-left: auto;
@@ -2743,13 +2782,13 @@
     flex-direction: column;
 }
 .probel_end{
-    width: 768px;
-    height: 134px;
+    width: 320px;
+    height: 113px;
     
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content:center;
-    align-items;
+   
 
 }
 
@@ -2760,7 +2799,7 @@
     height: 27px;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-left: 380px;
+    margin-left: 170px;
     display: flex;
     align-items: center;
     justify-content: center
@@ -2778,7 +2817,7 @@
     letter-spacing: 0.13px;
     transform: translate(-50%, -50%);
     position: absolute;
-    margin-left: 380px;
+    margin-left: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2787,8 +2826,8 @@
 .text_4{
     display: block;
     display: flex;
-    margin-left: 3px;
-    margin-top: -225px;
+    margin-left: 10px;
+    margin-top: 50px;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 500;
