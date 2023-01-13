@@ -1,0 +1,195 @@
+.featured {
+    width: 1440px;
+    height: 1273px;
+    position: relative;
+    display: flex;
+    padding-left: 149px;
+    padding-right: 150px;
+}
+
+.text-featured {
+    position: absolute;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 59px;
+}
+
+.featured-big-picture {
+    width: 557px;
+    height: 368px;
+}
+
+.f-left-picture {
+    position: absolute;
+    margin-top: 116px;
+    background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png');
+}
+
+.f-right-picture {
+    position: absolute;
+    margin-top: 116px;
+    margin-left: 584px;
+    background-image: url(../images/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+}
+
+.date {
+    width: 117px;
+    height: 18px;
+    position: absolute;
+    margin-top: 510px;
+    font-family: Kanit;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 6px;
+    text-align: left;
+}
+
+.text-lifestyle {
+    width: 57px;
+    height: 18px;
+    position: absolute;
+    margin-top: 513px;
+    margin-left: 498px;
+    font-family: "Kanit";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.date-under-right {
+    margin-left: 586px;
+}
+
+.lifestyle-under-right {
+    margin-left: 1084px;
+}
+
+/* .featured-article{
+    width: 557px;
+    height: 150px;
+    position: absolute;
+    margin-top: 572px;
+} */
+
+.article-title {
+    width: 572px;
+    height: 72px;
+    position: absolute;
+    margin-top: 562px;
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.65px;
+    text-align: left;
+}
+
+.article-text {
+    width: 557px;
+    height: 54px;
+    position: absolute;
+    margin-top: 653px;
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
+
+.article-right {
+    position: absolute;
+    margin-left: 586px;
+}
+
+.small-images {
+    width: 363px;
+    height: 240px;
+    position: absolute;
+
+}
+
+.first-small-image {
+    margin-top: 770px;
+    background-image: url(../images/img-1.png);
+}
+
+.second-small-image {
+    margin-top: 770px;
+    background-image: url(../images/img-2.png);
+    margin-left: 389px;
+}
+
+.third-small-image {
+    margin-top: 770px;
+    background-image: url(../images/img-3.png);
+    margin-left: 779px;
+}
+
+.date-small,
+.text-lifestyle-small {
+    margin-top: 1028px;
+
+}
+
+.text-lifestyle-first {
+    margin-left: 305px;
+}
+
+.date-small-second {
+    margin-left: 390px;
+}
+
+.text-lifestyle-second {
+    margin-left: 694px;
+}
+
+.date-small-third {
+    margin-left: 779px;
+}
+
+.text-lifestyle-third {
+    margin-left: 1084px;
+}
+
+.featured-small-text {
+    width: 363px;
+    height: 27px;
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 1068px;
+    font-family: 'Kanit';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.f-s-t-second {
+    margin-left: 390px;
+}
+
+.f-s-t-third {
+    margin-left: 779px;
+}
+
+.seeall-button {
+    width: 238px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    position: absolute;
+}
+
+.featured-button {
+    margin-top: 1160px;
+    margin-left: 453px;
+}

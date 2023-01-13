@@ -1,0 +1,1986 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('featured.css');
+@import url('managing.css');
+@import url('interviews.css');
+@import url('news.css');
+
+header {
+    width: 1440px;
+    height: 122px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+main{
+    width: 1440px;
+    height: 3317px;
+    margin: 0 auto;
+} 
+ footer{
+    width: 1440px;
+    height: 163px;
+    margin: 0 auto;
+}
+
+
+.menu-dropdown {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 47px;
+}
+
+.menu-cross {
+    /* background: url('https://api.iconify.design/charm/cross.svg?width=31&height=31'); */
+    /* background: url('https://api.iconify.design/maki/cross.svg?width=31&height=31'); */
+    width: 31px;
+    height: 31px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    width: 344px;
+    height: 359px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    padding: 52px 66px;
+    position: absolute;
+    margin-top: 54px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.menu-cross:hover .dropdown-content {
+    visibility: visible;
+}
+
+.menu-dropdown a {
+    font-family: 'Kanit';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+/* M E D I U M    M E N U */
+
+.menu-dropdown-devices{
+    
+    width: 24px;
+    height: 19px;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 47px;
+}
+
+.menu-cross-devices{
+    background: url('../images/medium-menu.jpg');
+    width: 24px;
+    height: 19px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-cross-devices:hover .dropdown-content-devices{
+    display: block;
+}
+
+.dropdown-content-devices{
+    display: none;
+    width: 344px;
+    height: 359px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    padding: 52px 66px;
+    position: absolute;
+    margin-top: 54px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.dropdown-content-devices a{
+    font-family: 'Kanit';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+/* the end of M E D I U M    M E N U */
+
+.header-logo {
+    position: absolute;
+    margin: 45px 641px;
+}
+
+.header-logo-tablet{
+    display: none;
+    position: absolute;
+    margin: 22.5px 337px;
+}
+
+.slider {
+    width: 1440px;
+    height: 568px;
+    display: flex;
+}
+
+.slider-left {
+    width: 720px;
+    height: 570px;
+    background-image: url('../images/philip-martin-5aGUyCW_PJw-unsplash.jpg');
+    background-position: center;
+}
+
+.slider-right {
+    width: 720px;
+    height: 570px;
+    background-color: black;
+    padding: 105px 108px;
+    position: relative;
+}
+
+.slider-date {
+    width: 136px;
+    height: 21px;
+    position: absolute;
+    margin-top: 3px;
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 7px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-lifesstyle {
+    width: 75px;
+    height: 24px;
+    position: absolute;
+    margin-left: 427px;
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-big-text {
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    margin-top: 90px;
+    font-family: Kanit;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-small-text {
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    margin-top: 161px;
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-button {
+    position: absolute;
+    margin-top: 257px;
+}
+
+
+.footer-box {
+    width: 1440px;
+    height: 138px;
+    position: relative;
+    background-color: black;
+}
+
+.footer-sufix {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 649px;
+}
+
+.footer-text {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 669px;
+    font-family: 'Kanit';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    header {
+        width: 1240px;
+        height: 122px;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+    }
+
+    main {
+        width: 1240px;
+        height: 3245px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    footer {
+        width: 1240px;
+        height: 163px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+   .menu-cross {
+        display: none;
+    }
+
+    /* M E D I U M    M E N U */
+
+    .menu-dropdown-devices{
+        display: block;
+        z-index: 3;
+    }
+
+    .dropdown-content-devices{
+        display: block;
+        z-index: 3;
+    }
+
+
+    /* the end of M E D I U M    M E N U */
+
+
+    .header-logo {
+        position: absolute;
+        margin: 45px 541px;
+    }
+
+    .slider {
+        width: 1240px;
+        height: 570px;
+        display: flex;
+        background-image: url('../images/philip-martin-5aGUyCW_PJw-unsplash.jpg');
+        /* background-position: center; */
+        /* margin: 0 auto; */
+    }
+
+    .slider-left {
+        width: 620px;
+        height: 570px;
+    }
+
+    .slider-right {
+        width: 620px;
+        height: 570px;
+        background-color: black;
+        padding: 125px 104px;
+        position: relative;
+    }
+
+    .slider-date {
+        width: 136px;
+        height: 21px;
+        position: absolute;
+        margin-top: 3px;
+        font-family: 'Kanit';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 7px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-lifesstyle {
+        width: 75px;
+        height: 24px;
+        position: absolute;
+        margin-left: 425px;
+        font-family: Kanit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-big-text {
+        width: 394px;
+        height: 84px;
+        position: absolute;
+        margin-top: 60px;
+        font-family: Kanit;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 42px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-small-text {
+        width: 411px;
+        height: 63px;
+        position: absolute;
+        margin-top: 167px;
+        font-family: 'Kanit';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-button {
+        position: absolute;
+        margin-top: 266px;
+    }
+
+    /*  F E A T U R E D  */
+
+    .featured {
+        width: 1240px;
+        height: 1186px;
+        position: relative;
+        display: flex;
+        padding-left: 150px;
+    }
+
+    .text-featured {
+        position: absolute;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 59px;
+    }
+
+    .featured-big-picture {
+        width: 455px;
+        height: 301px;
+    }
+
+    .f-left-picture {
+        position: absolute;
+        margin-top: 107px;
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png');
+    }
+
+    .f-right-picture {
+        position: absolute;
+        margin-top: 107px;
+        margin-left: 485px;
+        background-image: url(../images/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+    }
+
+    .menu-cross-devices{
+        background: url('../images/medium-menu.jpg');
+        width: 24px;
+        height: 19px;
+        position: relative;
+        cursor: pointer;
+        z-index: 36;
+    }
+    
+    .menu-cross-devices:hover .dropdown-content-devices{
+        display: block;
+        z-index: 66;
+    }
+    
+    .dropdown-content-devices{
+        display: none;
+        width: 344px;
+        height: 359px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+        padding: 52px 66px;
+        position: absolute;
+        margin-top: 54px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        z-index: 63;
+    }
+    
+    .dropdown-content-devices a{
+        font-family: 'Kanit';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: black;
+        z-index: 66;
+    }
+    
+    .date {
+        width: 117px;
+        height: 18px;
+        position: absolute;
+        margin-top: 435px;
+        font-family: Kanit;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 6px;
+        text-align: left;
+    }
+
+    .text-lifestyle {
+        width: 57px;
+        height: 18px;
+        position: absolute;
+        margin-top: 435px;
+        margin-left: 398px;
+        font-family: "Kanit";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: right;
+    }
+
+    .date-under-right {
+        margin-left: 486px;
+    }
+
+    .lifestyle-under-right {
+        margin-left: 884px;
+    }
+
+    /* .featured-article{
+        width: 557px;
+        height: 150px;
+        position: absolute;
+        margin-top: 572px;
+    } */
+
+    .article-title {
+        width: 455px;
+        height: 72px;
+        position: absolute;
+        margin-top: 487px;
+        font-family: Kanit;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .article-text {
+        width: 455px;
+        height: 81px;
+        position: absolute;
+        margin-top: 578px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .article-right {
+        position: absolute;
+        margin-left: 486px;
+    }
+
+    .small-images {
+        width: 295px;
+        height: 195px;
+        position: absolute;
+        margin-top: 718px;
+    }
+
+    .first-small-image {
+        /* margin-top: 718px; */
+        margin-left: -2px;
+        background-image: url(../images/img-1.png);
+    }
+
+    .second-small-image {
+        background-image: url(../images/img-2.png);
+        margin-left: 323px;
+    }
+
+    .third-small-image {
+        /* margin-top: 718px; */
+        background-image: url(../images/img-3.png);
+        margin-left: 646px;
+    }
+
+    .date-small,
+    .text-lifestyle-small {
+        margin-top: 930px;
+    }
+
+    .text-lifestyle-first {
+        margin-left: 235px;
+    }
+
+    .date-small-second {
+        margin-left: 323px;
+    }
+
+    .text-lifestyle-second {
+        margin-left: 558px;
+    }
+
+    .date-small-third {
+        margin-left: 646px;
+    }
+
+    .text-lifestyle-third {
+        margin-left: 881px;
+    }
+
+    .featured-small-text {
+        width: 293px;
+        height: 54px;
+        position: absolute;
+        margin-top: 970px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .f-s-t-second {
+        margin-left: 323px;
+    }
+
+    .f-s-t-third {
+        margin-left: 646px;
+    }
+
+    .seeall-button {
+        width: 238px;
+        height: 42px;
+        background-color: black;
+        color: white;
+        position: absolute;
+    }
+
+    .featured-button {
+        margin-top: 1084px;
+        margin-left: 351px;
+    }
+
+    /* M A N A G I N G  */
+
+
+    .managing {
+        width: 1240px;
+        height: 360px;
+        padding: 0 150px;
+        position: relative;
+        display: flex;
+    }
+
+    .managin-images {
+        width: 470px;
+        height: 360px;
+    }
+
+    .managin-left-image {
+        background-image: url(../images/photo-1520781359717-3eb98461c9fe.png);
+    }
+
+    .managin-right-image {
+        background-color: black;
+        position: relative;
+    }
+
+    .managing-text {
+        width: 335px;
+        height: 51px;
+        position: absolute;
+        margin-top: 124px;
+        margin-left: 57px;
+        font-family: 'Kanit';
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 51px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .managin-button {
+        position: absolute;
+        margin-top: 195px;
+        margin-left: 129px;
+    }
+
+    .main-text {
+        display: none;
+    }
+
+    /* I N T E R V I E W S */
+
+    .interviews {
+        width: 1240px;
+        height: 526px;
+        position: relative;
+        display: flex;
+        padding-left: 150px;
+    }
+
+    .interviews-title {
+        width: 99px;
+        height: 27px;
+        position: absolute;
+        margin-top: 60.5px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .fourth-small-image {
+        background-image: url(../images/img-5.png);
+        margin-top: 117px;
+    }
+
+    .fifth-small-image {
+        background-image: url(../images/img-6.png);
+        margin-left: 325px;
+        margin-top: 117px;
+    }
+
+    .sixth-small-image {
+        background-image: url(../images/img-7.png);
+        margin-left: 648px;
+        margin-top: 117px;
+    }
+
+    .date-interviews {
+        margin-top: 329px;
+    }
+
+    .second-date-interviews {
+        margin-left: 325px;
+    }
+
+    .third-date-interviews {
+        margin-left: 648px;
+    }
+
+    .lifestile-interviews {
+        margin-top: 329px;
+    }
+
+    .first-lifstyle-interviews {
+        margin-left: 229px;
+    }
+
+    .second-lifstyle-interviews {
+        margin-left: 554px;
+    }
+
+    .third-lifstyle-interviews {
+        margin-left: 877px;
+    }
+
+    .first-inteviews-text {
+        margin-top: 357px;
+    }
+
+    .second-inteviews-text {
+        margin-top: 357px;
+        margin-left: 325px;
+    }
+
+    .third-inteviews-text {
+        margin-top: 357px;
+        margin-left: 648px;
+    }
+
+    .interviews-button {
+        margin-top: 483px;
+        margin-left: 353px;
+    }
+
+
+    /* N E W S */
+
+    .news {
+        width: 1240px;
+        height: 604px;
+        position: relative;
+        padding-left: 150px;
+    }
+
+    .news-title {
+        width: 47px;
+        height: 27px;
+        position: absolute;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .small-images-news{
+        width: 295px;
+        height: 195px;
+        background-size: 295px 195px;
+        margin-top: 106.5px;
+    }
+
+    .seventh-small-image {
+    background-image: url('../images/news-first-picture.jpg');
+        margin-top: 106.5px;
+    }
+
+    .eighth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg');
+        margin-left: 325px;
+        margin-top: 106.5px;
+    }
+
+    .nineth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg');
+        margin-left: 648px;
+        margin-top: 106.5px;
+    }
+
+    .lifestile-news{
+        margin-top: 321px;
+    }
+
+    .first-news-text {
+        margin-top: 357px;
+    }
+
+    .second-news-text {
+        margin-top: 357px;
+        margin-left: 325px;
+    }
+
+    .third-news-text {
+        margin-top: 357px;
+        margin-left: 648px;
+    }
+    .news-button{
+        margin-top: 475px;
+        margin-left: 351px;
+    }
+
+    /* F O O T E R */
+
+    .footer-box {
+        width: 1240px;
+        height: 163px;
+        position: relative;
+        background-color: black;
+    }
+
+    .footer-sufix {
+        position: absolute;
+        margin-top: 55px;
+        margin-left: 549px;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 569px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+}
+
+
+
+
+/* T A B L E T   */
+
+@media screen and (max-width: 1245px) {
+    header {
+        width: 768px;
+        height: 65px;
+        position: relative;
+        display: flex;
+       
+    }
+
+    main {
+        width: 768px;
+        height: 2526px;
+        margin: 0 auto;
+       
+    }
+
+    footer {
+        width: 768px;
+        height: 163px;
+        margin: 0 auto;
+       
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    .menu-cross {
+        display: none;
+    }
+
+    /* M E D I U M    M E N U */
+    .menu-dropdown-devices{
+        display: block;
+        margin-top: 23px;
+        margin-left: 28px;
+
+ }
+
+    /* the end of M E D I U M    M E N U */
+
+
+    .header-logo {
+        display: none;
+    }
+
+        
+
+    .header-logo-tablet{
+        display: block;
+
+    }
+
+    .slider {
+        width: 768px;
+        height: 354px;
+        display: flex;
+    }
+
+    .slider-left {
+        background-size: 385px 354px;
+        width: 385px;
+        height: 100%;
+    }
+
+    .slider-right {
+        width: 385px;
+        height: 100%;
+        background-color: black;
+        padding: 0 21px;
+        position: relative;
+    }
+
+    .slider-date {
+        width: 117px;
+        height: 18px;
+        position: absolute;
+        margin-top: 72px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 6px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-lifesstyle {
+        display: none;
+    }
+
+    .slider-big-text {
+        width: 344px;
+        height: 27px;
+        position: absolute;
+        margin-top: 110px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-small-text {
+        width: 343px;
+        height: 54px;
+        position: absolute;
+        margin-top: 157px;
+        margin-left: 1px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-button {
+        width: 198px;
+        height: 40px;
+        position: absolute;
+        margin-top: 242px;
+    }
+
+    /*  F E A T U R E D  */
+
+    .featured {
+        width: 768px;
+        height: 965px;
+        position: relative;
+        display: flex;
+        padding-left: 24px;
+    }
+
+    .text-featured {
+        position: absolute;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .featured-big-picture {
+        width: 345px;
+        height: 228px;
+        background-size: 345px 228px;
+        margin-top: 107px;
+    }
+
+    .f-left-picture {
+        position: absolute;
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png');
+    }
+
+    .f-right-picture {
+        position: absolute;
+        margin-left: 375px;
+        background-image: url(../images/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+    }
+
+    .date {
+        width: 117px;
+        height: 18px;
+        position: absolute;
+        margin-top: 357px;
+        font-family: Kanit;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 6px;
+        text-align: left;
+    }
+
+    .text-lifestyle {
+        width: 57px;
+        height: 18px;
+        position: absolute;
+        margin-top: 357px;
+        margin-left: 288px;
+        font-family: "Kanit";
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: right;
+    }
+
+    .date-under-right {
+        margin-left: 375px;
+    }
+
+    .lifestyle-under-right {
+        margin-left: 663px;
+    }
+
+    .article-title {
+        width: 345px;
+        height: 54px;
+        position: absolute;
+        margin-top: 391px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .article-text {
+        width: 345px;
+        height: 63px;
+        position: absolute;
+        margin-top: 466px;
+        font-family: 'Kanit';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+
+    .article-right {
+        position: absolute;
+        margin-left: 375px;
+    }
+
+    .small-images {
+        width: 220px;
+        height: 145px;
+        background-size: 220px 145px;
+        position: absolute;
+        margin-top: 565px;
+    }
+
+    .first-small-image {
+        background-image: url(../images/img-1.png);
+    }
+
+    .second-small-image {
+        background-image: url(../images/img-2.png);
+        margin-left: 250px;
+    }
+
+    .third-small-image {
+        background-image: url(../images/img-3.png);
+        margin-left: 500px;
+    }
+
+    .date-small,
+    .text-lifestyle-small {
+        margin-top: 731px;
+    }
+    .date-small-second {
+        margin-left: 250px;
+    }
+    .date-small-third {
+        margin-left: 500px;
+    }
+
+    .text-lifestyle-first {
+        margin-left: 163px;
+    }
+    .text-lifestyle-second {
+        margin-left: 413px;
+    }
+    .text-lifestyle-third {
+        margin-left: 663px;
+    }
+
+   
+
+  
+
+    .featured-small-text {
+        width: 220px;
+        height: 48px;
+        position: absolute;
+        margin-top: 764px;
+        font-family: 'Kanit';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+
+    .f-s-t-second {
+        margin-left: 250px;
+    }
+
+    .f-s-t-third {
+        margin-left: 500px;
+    }
+
+    .seeall-button {
+        width: 238px;
+        height: 42px;
+        background-color: black;
+        color: white;
+        position: absolute;
+    }
+
+    .featured-button {
+        margin-top: 861px;
+        margin-left: 241px;
+    }
+
+    /* M A N A G I N G  */
+
+
+    .managing {
+        width: 768px;
+        height: 275px;
+        padding: 0 25px;
+        position: relative;
+        display: flex;
+    }
+
+    .managin-images {
+        width: 359px;
+        height: 100%;
+    }
+
+    .managin-left-image {
+        background-image: url(../images/photo-1520781359717-3eb98461c9fe.png);
+    }
+
+    .managin-right-image {
+        background-color: black;
+        position: relative;
+    }
+
+    .managing-text {
+        width: 177px;
+        height: 27px;
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 90px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .managin-button {
+        position: absolute;
+        margin-top: 144px;
+        margin-left: 81px;
+    }
+
+    .main-text {
+        display: none;
+    }
+
+/* I N T E R V I E W S */
+
+    .interviews {
+        width: 768px;
+        height: 448px;
+        position: relative;
+        display: flex;
+        padding-left: 24px;
+    }
+
+    .interviews-title {
+        width: 99px;
+        height: 27px;
+        position: absolute;
+        margin-top: 53px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .fourth-small-image {
+        background-image: url(../images/img-5.png);
+        margin-top: 112px;
+    }
+
+    .fifth-small-image {
+        background-image: url(../images/img-6.png);
+        margin-left: 250px;
+        margin-top: 112px;
+    }
+
+    .sixth-small-image {
+        background-image: url(../images/img-7.png);
+        margin-left: 500px;
+        margin-top: 112px;
+    }
+
+    .date-interviews {
+        margin-top: 272px;
+    }
+
+    .second-date-interviews {
+        margin-left: 250px;
+    }
+
+    .third-date-interviews {
+        margin-left: 500px;
+    }
+
+    .lifestile-interviews {
+        margin-top: 272px;
+    }
+
+    .first-lifstyle-interviews {
+        margin-left: 163px;
+    }
+
+    .second-lifstyle-interviews {
+        margin-left: 413px;
+    }
+
+    .third-lifstyle-interviews {
+        margin-left: 663px;
+    }
+
+    .first-inteviews-text {
+        margin-top: 305px;
+    }
+
+    .second-inteviews-text {
+        margin-top: 305px;
+        margin-left: 250px;
+    }
+
+    .third-inteviews-text {
+        margin-top: 305px;
+        margin-left: 500px;
+    }
+
+    .interviews-button {
+        margin-top: 410px;
+        margin-left: 241px;
+    }
+
+
+    /* N E W S */
+
+    .news {
+        width: 768px;
+        height: 480px;
+        position: relative;
+        padding-left: 24px;
+    }
+
+    .news-title {
+        width: 48px;
+        height: 27px;
+        position: absolute;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .lifestile-news{
+        margin-top: 239px;
+    }
+
+    .small-images-news{
+        width: 220px;
+        height: 144px;
+        background-size: 220px 144px;
+        position: absolute;
+        margin-top: 81px;
+    }
+
+    .seventh-small-image {
+        background-image: url('../images/first-news.jpg');
+        margin-top: 81px;
+    }
+
+    .eighth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg');
+        margin-left: 250px;
+        margin-top: 81px;
+    }
+
+    .nineth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg');
+        margin-left: 500px;
+        margin-top: 81px;
+    }
+    .first-news-text{
+        margin-top: 272px;
+        
+    }
+
+    .second-news-text{
+        margin-top: 272px;
+        margin-left: 250px;
+    }
+
+    .third-news-text{
+        margin-top: 272px;
+        margin-left: 500px;
+    }
+    
+    .news-button{
+        margin-top: 368px;
+        margin-left: 241px;
+    }
+    /* F O O T E R */
+
+    .footer-box {
+        width: 768px;
+        height: 163px;
+        position: relative;
+        background-color: black;
+    }
+
+    .footer-sufix {
+        position: absolute;
+        margin-top: 55px;
+        margin-left: 313px;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 333px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+}
+
+
+/* M O B I L E */
+
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 320px;
+        height: 65px;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+    }
+
+    main {
+        width: 320px;
+        height: 4928px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    footer {
+        width: 320px;
+        height: 163px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    .menu-cross {
+        display: none;
+    }
+
+    /* M E D I U M    M E N U */
+
+    /* the end of M E D I U M    M E N U */
+
+
+    .header-logo {
+        display: none;
+    }
+
+        
+
+    .header-logo-tablet{
+        display: block;
+        margin: 22px 107.5px;
+        
+    }
+
+    .slider {
+        width: 320px;
+        height: 540px;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .slider-left {
+        background-size: 320px 294px;
+        width: 320px;
+        height: 294px;
+    }
+
+    .slider-right {
+        width: 320px;
+        height: 246px;
+        background-color: black;
+        padding: 0 12px;
+        position: relative;
+    }
+
+    .slider-date {
+        width: 117px;
+        height: 18px;
+        position: absolute;
+        margin-top: 15px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 6px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-lifesstyle {
+        display: none;
+    }
+
+    .slider-big-text {
+        width: 295px;
+        height: 27px;
+        position: absolute;
+        margin-top: 53px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-small-text {
+        width: 295px;
+        height: 54px;
+        position: absolute;
+        margin-top: 100px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .slider-button {
+        width: 198px;
+        height: 40px;
+        position: absolute;
+        margin-top: 174px;
+
+    }
+
+    /*  F E A T U R E D  */
+
+    .featured {
+        width: 320px;
+        height: 1880px;
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+        padding-left: 12px;
+    }
+
+    .text-featured {
+        position: absolute;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 43px;
+    }
+
+    .featured-big-picture {
+        width: 295px;
+        height: 195px;
+        background-size: 295px 195px;
+        margin-top: 86px;
+    }
+
+    .f-left-picture {
+        position: absolute;
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png');
+    }
+
+    .f-right-picture {
+        position: absolute;
+        margin-top: 496px;
+        margin-left: 0;
+        background-image: url(../images/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+    }
+
+    .date {
+        width: 117px;
+        height: 18px;
+        position: absolute;
+        margin-top: 297px;
+        margin-left: 0;
+        font-family: Kanit;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 6px;
+        text-align: left;
+    }
+
+    .text-lifestyle {
+        display: none;
+    }
+
+    .date-under-right {
+        margin-left: 0;
+        margin-top: 703px;
+    }
+
+    .lifestyle-under-right {
+        display: none;
+        /* margin-left: 663px; */
+    }
+
+    .article-title {
+        width: 295px;
+        height: 54px;
+        position: absolute;
+        margin-top: 331px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .article-text {
+        width: 295px;
+        height: 63px;
+        position: absolute;
+        margin-top: 406px;
+        font-family: 'Kanit';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+
+    .article-right {
+        position: absolute;
+        margin: 0;
+    }
+
+    .article-right-title{
+        margin-top: 737px;
+    }
+
+    .article-right-text{
+        margin-top: 812px;
+    }
+
+    .small-images {
+        width: 295px;
+        height: 195px;
+        background-size: 295px 195px;
+        position: absolute;
+        /* margin-top: 902px; */
+    }
+
+    .first-small-image {
+        background-image: url(../images/img-1.png);
+        margin-top: 902px;
+    }
+
+    .second-small-image {
+        background-image: url(../images/img-2.png);
+        margin-left: 0;
+        margin-top: 1189px;
+    }
+
+    .third-small-image {
+        background-image: url(../images/img-3.png);
+        margin-left: 0;
+        margin-top: 1487px;
+    }
+
+    .date-small,
+    .text-lifestyle-small {
+        display: block;
+        margin-top: 1110px;
+        margin-left: 0;
+    }
+
+    .text-lifestyle-first,
+    .text-lifestyle-second,
+    .text-lifestyle-third 
+    {
+        margin-left: 238px;
+    }
+
+    .date-small-second,
+    .text-lifestyle-second{
+        margin-top: 1409px;
+    }
+
+   .date-small-third,
+   .text-lifestyle-third{
+        margin-top: 1707px ;
+    }
+  
+
+    .featured-small-text {
+        width: 295px;
+        height: 24px;
+        position: absolute;
+        margin-top: 1143px;
+        margin-left: 0;
+        font-family: 'Kanit';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;        
+    }
+
+    .f-s-t-second {
+        /* margin-left: 250px; */
+        margin-top: 1442px;
+    }
+
+    .f-s-t-third {
+        margin-top: 1740px;
+    }
+
+    .seeall-button {
+        width: 238px;
+        height: 42px;
+        background-color: black;
+        color: white;
+        position: absolute;
+    }
+
+    .featured-button {
+        margin-top: 1795px;
+        margin-left: 28px;
+    }
+
+    /* M A N A G I N G  */
+
+
+    .managing {
+        width: 320px;
+        height: 421px;
+        padding: 0;
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .managin-images {
+        width: 320px;
+    }
+
+    .managin-left-image {
+        height: 245px;
+        background-size: 320px 245px;
+        background-image: url(../images/photo-1520781359717-3eb98461c9fe.png);
+    }
+
+    .managin-right-image {
+        height: 175px;
+        background-color: black;
+        position: relative;
+    }
+
+    .managing-text {
+        /* width: 177px;
+        height: 27px; */
+        position: absolute;
+        margin-top: 41px;
+        margin-left: 70px;
+        /* font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1); */
+    }
+
+    .managin-button {
+        position: absolute;
+        margin-top: 94px;
+        margin-left: 61px;
+    }
+
+    .main-text {
+        display: none;
+    }
+
+/* I N T E R V I E W S */
+
+    .interviews {
+        width: 320px;
+        height: 1021px;
+        position: relative;
+        display: flex;
+        flex-flow: column wrap;
+        padding-left: 11px;
+    }
+
+    .interviews-title {
+        width: 99px;
+        height: 27px;
+        position: absolute;
+        margin-top: 43px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .fourth-small-image {
+        background-image: url(../images/img-5.png);
+        background-size: 296px 209px;
+        width: 296px;
+        height: 209px;
+        margin-top: 86px;
+    }
+
+    .fifth-small-image {
+        background-image: url(../images/img-6.png);
+        background-size: 296px 209px;
+        width: 296px;
+        height: 209px;
+        margin-left: 0;
+        margin-top: 373px;
+    }
+
+    .sixth-small-image {
+        background-image: url(../images/img-7.png);
+        background-size: 296px 209px;
+        width: 296px;
+        height: 209px;
+        margin-left: 0;
+        margin-top: 671px;
+    }
+
+    .date-interviews,
+    .first-lifstyle-interviews {
+        margin-top: 294px;
+        margin-left: 0;
+    }
+
+    .second-date-interviews,
+    .second-lifstyle-interviews {
+        margin-top: 593px;
+    }
+
+    .third-date-interviews,
+    .third-lifstyle-interviews {
+        margin-top: 891px;
+    }
+    .lifestile-interviews{
+        display: block;
+        margin-left: 219px;
+    }
+
+
+    .first-inteviews-text {
+        margin-top: 327px;
+    }
+
+    .second-inteviews-text {
+        margin-top: 626px;
+        margin-left: 0;
+    }
+
+    .third-inteviews-text {
+        margin-top: 924px;
+        margin-left: 0;
+    }
+
+    .interviews-button {
+        margin-top: 979px;
+        margin-left: 28px;
+    }
+
+
+    /* N E W S */
+
+    .news {
+        width: 320px;
+        height: 1064px;
+        position: relative;
+        padding-left: 11px;
+    }
+
+    .news-title {
+        width: 48px;
+        height: 27px;
+        position: absolute;
+        margin-top: 43px;
+        font-family: 'Kanit';
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+   
+
+    .small-images-news{
+        width: 295px;
+        height: 194px;
+        background-size: 295px 194px;
+        position: absolute;
+        margin-top: 86px;
+    }
+
+    .seventh-small-image {
+        background-image: url('../images/first-news.jpg');
+    }
+
+    .eighth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 5.jpg');
+        margin-left: 0;
+        margin-top: 373px;
+    }
+
+    .nineth-small-image {
+        background-image: url('../images/Screen\ Shot\ 2560-08-18\ at\ 4.38.56\ PM\ Copy\ 6.jpg');
+        margin-left: 0;
+        margin-top: 671px;
+
+    }
+
+    .text-lifestyle.lifestile-news{
+        margin-left: 229px;
+    }
+
+    .lifestile-news{
+        margin-left: 0;
+    }
+
+    .lifestile-news {
+        display: block;
+    }
+
+
+
+    .first-news-text{
+        margin-top: 327px;
+        
+    }
+
+    .second-news-text{
+        margin-top: 626px;
+        margin-left: 0;
+    }
+
+    .third-news-text{
+        margin-top: 924px;
+        margin-left: 0;
+    }
+    
+    .news-button{
+        margin-top: 979px;
+        margin-left: 28px;
+    }
+    /* F O O T E R */
+
+    .footer-box {
+        width: 320px;
+        height: 163px;
+        position: relative;
+        background-color: black;
+    }
+
+    .footer-sufix {
+        position: absolute;
+        margin-top: 55px;
+        margin-left: 89px;
+    }
+
+    .footer-text {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 112px;
+        font-family: 'Kanit';
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+}
+
+
+
+
+
+
+
+

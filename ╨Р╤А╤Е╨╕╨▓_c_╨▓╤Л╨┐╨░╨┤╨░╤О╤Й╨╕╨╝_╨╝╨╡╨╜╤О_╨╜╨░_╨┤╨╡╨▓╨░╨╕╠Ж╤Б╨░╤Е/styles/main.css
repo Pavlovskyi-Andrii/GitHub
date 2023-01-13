@@ -1,0 +1,272 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url('featured.css');
+@import url('managing.css');
+@import url('interviews.css');
+@import url('news.css');
+
+header {
+    width: 1440px;
+    height: 122px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+
+main {
+    width: 1440px;
+    height: 3317px;
+    margin: 0 auto;
+}
+
+footer {
+    width: 1440px;
+    height: 163px;
+    margin: 0 auto;
+}
+
+
+.menu-dropdown {
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    margin-top: 47px;
+    margin-left: 47px;
+}
+
+.dropdown-content {
+    width: 344px;
+    height: 359px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    padding: 52px 66px;
+    position: absolute;
+    margin-top: 54px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.menu-dropdown:hover .dropdown-content {
+    visibility: visible;
+}
+
+.menu-dropdown a {
+    font-family: 'Kanit';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: black;
+}
+
+.menu-cross-devices {
+    background: url('../images/medium-menu.jpg');
+    width: 24px;
+    height: 19px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-logo {
+    position: absolute;
+    margin: 45px 641px;
+}
+
+.header-logo-tablet {
+    display: none;
+    position: absolute;
+    margin: 22.5px 337px;
+}
+
+.slider {
+    width: 1440px;
+    height: 568px;
+    display: flex;
+}
+
+.slider-left {
+    width: 720px;
+    height: 570px;
+    background-image: url('../images/philip-martin-5aGUyCW_PJw-unsplash.jpg');
+    background-position: center;
+}
+
+.slider-right {
+    width: 720px;
+    height: 570px;
+    background-color: black;
+    padding: 105px 108px;
+    position: relative;
+}
+
+.slider-date {
+    width: 136px;
+    height: 21px;
+    position: absolute;
+    margin-top: 3px;
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 7px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-lifesstyle {
+    width: 75px;
+    height: 24px;
+    position: absolute;
+    margin-left: 427px;
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-big-text {
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    margin-top: 90px;
+    font-family: Kanit;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-small-text {
+    width: 503px;
+    height: 42px;
+    position: absolute;
+    margin-top: 161px;
+    font-family: 'Kanit';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.slider-button {
+    position: absolute;
+    margin-top: 257px;
+}
+
+
+.footer-box {
+    width: 1440px;
+    height: 138px;
+    position: relative;
+    background-color: black;
+}
+
+.footer-sufix {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 649px;
+}
+
+.footer-text {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 669px;
+    font-family: 'Kanit';
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1440px) {
+    header {
+        width: 90%;
+    }
+
+    main {
+        width: 90%;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    .menu-cross-devices {
+        display: block;
+    }
+
+    .dropdown-content {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 1245px) and  (min-width: 1245px) {
+    header {
+        width: 60%;
+    }
+
+    main {
+        width: 60%;
+    }
+
+    footer {
+        width: 60%;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    .menu-cross-devices {
+        display: block;
+    }
+
+    .dropdown-content {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 765px) and (min-width: 765px) {
+    header {
+        width: 20%;
+    }
+
+    main {
+        width: 30%;
+    }
+
+    footer {
+      width: 30%;
+    }
+
+    .menu-dropdown {
+        display: none;
+    }
+
+    .menu-cross-devices {
+        display: block;
+    }
+
+    .dropdown-content {
+        display: block;
+    }
+
+}
