@@ -1,0 +1,149 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(.);
+    min-height: 100vh;
+  }
+  
+  .system {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(75deg);
+  }
+  
+  .earth,
+  .orbit,
+  .moon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+    border-radius: 50%;
+  }
+  
+  .earth,
+  .moon {
+    width: 2em;
+    height: 2em;
+    margin-top: -1em;
+    margin-left: -1em;
+  }
+  
+  .earth {
+    font-size: 7em;
+    transform: rotateX(-90deg);
+  }
+  .earth1 {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 300px;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .orbit {
+    width: 24em;
+    height: 24em;
+    margin-top: -12em;
+    margin-left: -12em;
+    border: 1px solid rgba(255, 255, 255, .25);
+    animation: animOrbit 12s linear infinite;
+    position: absolute;
+    top: 550px;
+  }
+  
+  .moon {
+    background-color:aliceblue;
+    left: 100%;
+    animation: animMoon 12s linear infinite;
+
+   
+  }
+  
+  @keyframes animOrbit {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(-360deg);
+    }
+  }
+  
+  @keyframes animMoon {
+    
+  0% {
+    transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+    box-shadow:inset -1em 2em 15px 0px rgb(146, 142, 142); 
+  }
+  50% {
+    box-shadow: 10px 0px 14px 0px black inset;; 
+  }
+
+  
+  100% {
+    transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+    box-shadow:inset -1em 2em 15px 0px rgb(146, 142, 142); 
+    
+  }
+  
+  }
+
+.earth,
+.moon {
+  width: 2em;
+  height: 2em;
+  margin-top: -1em;
+  margin-left: -1em;
+}
+
+.earth {
+  font-size: 7em;
+  transform: rotateX(-90deg);
+}
+.earth1 {
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 300px;
+  bottom: 0;
+  margin: auto;
+}
+
+
+@keyframes radius {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(-360deg);
+    }
+  }
+  
+  @keyframes run {
+    
+    0% {
+        transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+        box-shadow:inset -1em 2em 15px 0px rgb(146, 142, 142); 
+    }
+    50% {
+        box-shadow: 10px 0px 14px 0px black inset;; 
+    }
+
+  
+    100% {
+        transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+        box-shadow:inset -1em 2em 15px 0px rgb(146, 142, 142); 
+    
+    }
+  
+  }

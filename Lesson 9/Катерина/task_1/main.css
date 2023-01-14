@@ -1,0 +1,41 @@
+@import url('./reset.css');
+
+
+
+.box {
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    transform-style: preserve-3d;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation-name: turn;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    transform: rotateZ(-180deg) scale(1);
+}
+
+@keyframes turn {
+    50% {
+        border-radius: 50%;
+        transform: rotateZ(0deg) scale(0.5);
+        /* transform: scale(2); */
+    }
+
+    100% {
+        border-radius: 0;
+        transform: rotateZ(180deg) scale(1);
+    }
+}

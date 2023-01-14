@@ -1,0 +1,76 @@
+@import url(./reset.css);
+
+
+.space{
+    width: 100%;
+    height: 1400px;
+    background-image: url(.//picture_1.jpg);
+    transform: rotateX(0deg) rotateY(0deg) rotateY(0deg);
+}
+
+
+.radius{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateX(64deg) rotateY(0deg) rotateZ(0deg);
+    z-index: 1;
+}
+
+.img-earth{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earth{
+    width: 450px;
+    height: 450px;
+    border-radius: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotateX(115deg) rotateY(0deg) rotateZ(0deg);
+
+}
+
+.moon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(.//moon-1.png);
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation-name: move;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotateZ(0deg) rotateX(0deg) rotateY(0deg) translate(250px);
+    
+}
+
+@keyframes move{
+    100%{
+        transform: rotateZ(360deg) rotateX(0deg) rotateY(0deg) translate(250px);
+    }
+}

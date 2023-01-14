@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #010101;
+    min-height: 100vh;
+  }
+  
+  .system {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateX(75deg);
+  }
+  
+  .sun,
+  .orbit,
+  .planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-style: preserve-3d;
+    border-radius: 50%;
+  }
+  
+  .sun,
+  .planet {
+    width: 2em;
+    height: 2em;
+    margin-top: -1em;
+    margin-left: -1em;
+  }
+  
+  .sun {
+    font-size: 7em;
+    background: linear-gradient(to bottom, #F8E82F 0%, rgba(251, 65, 9, 1) 100%);
+    box-shadow: 0 0 60px rgba(255, 160, 60, .4);
+    transform: rotateX(-90deg);
+  }
+  
+  .orbit {
+    width: 24em;
+    height: 24em;
+    margin-top: -12em;
+    margin-left: -12em;
+    border: 1px solid rgba(255, 255, 255, .25);
+    animation: animOrbit 12s linear infinite;
+  }
+  
+  .planet {
+    background-color: aliceblue;
+    left: 100%;
+    animation: animPlanet 12s linear infinite;
+  }
+  
+  @keyframes animOrbit {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(-360deg);
+    }
+  }
+  
+  @keyframes animPlanet {
+    0% {
+      transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+    }
+  }

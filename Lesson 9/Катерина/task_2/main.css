@@ -1,0 +1,201 @@
+@import url('./reset.css');
+
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+p{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.box{
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.points{
+    width: 700px;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.point{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: point-pulse;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+    transform: scale(1);
+}
+
+.point::before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: pulse-before;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+    transform: scale(1);
+}
+
+.point:nth-child(1)::before{
+    background-color: rgba(255, 255, 255, 0.125);
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+}
+
+.point:nth-child(2)::before{
+    background-color: rgba(255, 0, 0, 0.125);
+}
+
+.point:nth-child(3)::before{
+    background-color: rgba(255, 166, 0, 0.125) ;
+}
+
+.point:nth-child(4)::before{
+    background-color: rgb(255, 255, 106, 0.125);
+}
+
+.point:nth-child(5)::before{
+   background-color: rgb(79, 190, 223, 0.125); 
+}
+
+.point:nth-child(6)::before{
+    background-color: rgb(30, 217, 179, 0.125);
+}
+
+.point:nth-child(7)::before{
+    background-color: rgb(243, 26, 243, 0.125);
+}
+
+.point:nth-child(8)::before{
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.point::after{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: pulse;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-delay: 1.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+    transform: scale(1);
+}
+
+.point:nth-child(1)::after{
+    background-color: rgba(255, 255, 255, 0.125);
+}
+
+.point:nth-child(2)::after{
+    background-color: rgba(255, 0, 0, 0.125);
+}
+
+.point:nth-child(3)::after{
+    background-color: rgba(255, 166, 0, 0.125) ;
+}
+
+.point:nth-child(4)::after{
+    background-color: rgb(255, 255, 106, 0.125);
+}
+
+.point:nth-child(5)::after{
+   background-color: rgb(79, 190, 223, 0.125); 
+}
+
+.point:nth-child(6)::after{
+    background-color: rgb(30, 217, 179, 0.125);
+}
+
+.point:nth-child(7)::after{
+    background-color: rgb(243, 26, 243, 0.125);
+}
+
+.point:nth-child(8)::after{
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.point:nth-child(1){
+    background-color: rgb(255, 255, 255);
+}
+
+.point:nth-child(2){
+    background-color: red;
+}
+
+.point:nth-child(3){
+    background-color: orange ;
+}
+
+.point:nth-child(4){
+    background-color: rgb(255, 255, 106);
+}
+
+.point:nth-child(5){
+   background-color: rgb(79, 190, 223); 
+}
+
+.point:nth-child(6){
+    background-color: rgb(30, 217, 179);
+}
+
+.point:nth-child(7){
+    background-color: rgb(243, 26, 243);
+}
+
+.point:nth-child(8){
+    background-color: black;
+}
+
+@keyframes point-pulse{
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse-before{
+    100%{
+        transform: scale(1.25);
+    }
+}
+
+@keyframes pulse{
+    100%{
+        transform: scale(1.5);
+    }
+}
+
